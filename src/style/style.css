@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'iCiel Brush Up';
+    font-display: swap;
+    src: local('iCiel Brush Up'), url(./fonts/iCiel\ Brush\ Up.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-display: swap;
+    src: local('Montserrat'), url(./fonts/Montserrat-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Helvetica';
+    font-display: swap;
+    src: local('Helvetica'), url(./fonts/helveticaneue.ttf) format('truetype');
+}

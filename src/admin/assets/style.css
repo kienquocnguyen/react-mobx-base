@@ -1,0 +1,122 @@
+.main-content #txtDescription{
+    margin-top: 1rem;
+}
+.main-content #txtShortDescription{
+    margin-top: 0;
+    margin-bottom: 0!important;
+    width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+    padding: .8125rem .8125rem;
+    background-color: #fff;
+    border: 1px solid #e1e5eb;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .375rem;
+    transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
+}
+.main-content #txtShortDescription:focus{
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #e1e5eb;
+}
+.adnin-categories{
+    font-family: 'Montserrat', sans-serif;
+}
+.adnin-categories .admin-checkbox-container input{
+    width: 2.125rem;
+    height: 2.125rem;
+}
+.adnin-categories .admin-checkbox-label{
+    line-height: 2.2rem;
+    font-size: 1.3rem;
+}
+.adnin-categories .categories-management .row{
+    border-bottom: 1px solid #e1e5eb;
+    padding-bottom: 10px;
+}
+.adnin-categories .categories-management .edit-categories{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+.adnin-categories .categories-management .categories-delete{
+    padding: 0;
+    color: #1d84ef;
+    background: none;
+    border: none;
+    outline: none;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+.adnin-categories .new-categories textarea{
+    height: 100px;
+}
+.adnin-categories .new-categories .form-control{
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 400;
+}
+
+/*Popup*/
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+    z-index: 3000;
+}
+.popup_inner {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: auto;
+    margin: auto;
+    background: white;
+    color: rgba(0,0,0,.87);
+    border-radius: 5px;
+    padding: 1.5rem;
+    box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+}
+.delete-selection{
+    display: flex;
+    justify-content: center;
+}
+.delete-yes{
+    width: 40%;
+    margin-right: .5rem;
+}
+.popup_inner .delete-no{
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 40%;
+}
+.popup_inner .delete-no:hover{
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.popup_inner .delete-no:active{
+    background-color: #dc3545!important;
+    border-color: #dc3545!important;
+}
+
+/*Post Table*/
+.post-table-avatar{
+    max-width: 100px;
+    min-width: 100px;
+}
+.post-table-container .edit-post-table{
+    width: 40%;
+}
+.post-table-container .delete-post-table{
+    width: 40%;
+    background-color: red;
+    border-color: red;
+}

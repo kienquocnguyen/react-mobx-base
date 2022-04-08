@@ -1,0 +1,32 @@
+.admin-checkbox-container input{
+    width: 1.125rem;
+    height: 1.125rem;
+    margin: 0px 0px 0px 0px;
+    background-color: #fff;
+    border: 1px solid #e1e5eb;
+    transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+    border-radius: 2px;
+}
+.admin-checkbox-container input:checked{
+    color: #fff;
+    border-color: transparent;
+    background-color: #007bff;
+    box-shadow: none;
+    border-radius: 2px;
+}
+.admin-checkbox-container input:focus{
+    color: #fff;
+    border-color: transparent;
+    background-color: #b3d7ff;
+    box-shadow: none;
+    border-radius: 2px;
+}
+.admin-checkbox-label{
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+    font-weight: 400;
+    position: static;
+    line-height: 1.2rem;
+    padding-left: 0.5rem;
+}
